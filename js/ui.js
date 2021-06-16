@@ -16,12 +16,12 @@ class UI {
     //console.log(current);
     //console.log(location);
     this.location.textContent = location.name;
-    this.desc.textContent = current.weather_descriptions[0];
-    this.string.textContent = current.temperature;
-    this.icon.setAttribute('src', current.weather_icons[0]);
+    this.desc.textContent = current.condition.text;
+    this.string.textContent = current.temp_c;
+    this.icon.setAttribute('src', current.condition.icon);
     this.humidity.textContent = `Relative Humidity: ${current.humidity}`;
-    this.feelsLike.textContent = `Feels Like: ${current.feelslike}`;
-    this.dewpoint.textContent = `DewPoint: ${current.cloudcover}`;
-    this.wind.textContent = `Wind: ${current.wind_speed}`;
+    this.feelsLike.textContent = `Feels Like: ${current.feelslike_c}`;
+    this.dewpoint.textContent = `DewPoint: ${current.cloud}`;
+    this.wind.textContent = `Wind: ${current.wind_mph}`;
   }
 }
