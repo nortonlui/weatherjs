@@ -6,4 +6,4 @@ Descubra informações sobre a temperatura na sua cidade. Feito totalmente em JS
 
 ## Disponível:
 
-[Link](https://weather-js-x.stackblitz.io/)
+[Live Demo](https://weather-js-dev.netlify.app/)
